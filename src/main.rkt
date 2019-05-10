@@ -207,7 +207,9 @@
 (define initial-generation (encode "X")) ; initial stem that synthesized program will be applied to to generate trees/strings
 (define num-applications 2) ; # of times synthesized program will be applied to generate trees/strings
 
+; -------------------------
 ; PRUNE POSSIBLE SUCCESSORS
+; -------------------------
 
 ; solver
 (define solver (current-solver))
